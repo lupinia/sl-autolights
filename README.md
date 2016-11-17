@@ -1,5 +1,4 @@
 # Lupinia Central Automated Light System (Second Life)
-
 This is a full system for automatically controlling lights, and related objects (signs, windows, skylights), based on a region's sun position in Second Life.
 
 Built by [Natasha L.](http://www.lupinia.net/) (@lupinia, SL:  [Natasha Petrichor](https://my.secondlife.com/natasha.petrichor)).
