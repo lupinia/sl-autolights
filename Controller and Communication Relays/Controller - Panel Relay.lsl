@@ -21,7 +21,7 @@ default
 	{
 		if(id == llGetOwner() && num == 540)
 		{
-			llShout(ch_manual, light_system + " LIGHT CONTROL " + msg);
+			llRegionSay(ch_manual, light_system + " LIGHT CONTROL " + msg);
 		}
 	}
 }

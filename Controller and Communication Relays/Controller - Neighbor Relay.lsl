@@ -31,12 +31,12 @@ default
 		{
 			if(manual != 1 && lights == "off" && message == parent_system + " LIGHTS ON")
 			{
-				llShout(ch_control,light_system + " LIGHTS ON");
+				llRegionSay(ch_control,light_system + " LIGHTS ON");
 				lights = "on";
 			}
 			if(manual != 1 && lights == "on" && message == parent_system + " LIGHTS OFF")
 			{
-				llShout(ch_control,light_system + " LIGHTS OFF");
+				llRegionSay(ch_control,light_system + " LIGHTS OFF");
 				lights = "off";
 			}
 		}
@@ -55,12 +55,12 @@ default
 			
 			if(message == light_system + " LIGHT CONTROL MANUAL ON" && manual == 1 && lights == "off")
 			{
-				llShout(ch_control,light_system + " LIGHTS ON");
+				llRegionSay(ch_control,light_system + " LIGHTS ON");
 				lights = "on";
 			}
 			if(message == light_system + " LIGHT CONTROL MANUAL OFF" && manual == 1 && lights == "on")
 			{
-				llShout(ch_control,light_system + " LIGHTS OFF");
+				llRegionSay(ch_control,light_system + " LIGHTS OFF");
 				lights = "off";
 			}
 		}
